@@ -1,0 +1,163 @@
+<html>
+<head>
+  <title>News</title>
+  <style>
+    .title-box {
+      background-color: white;    
+      display: inline-block;       
+      padding: 10px 20px;          
+      position: absolute;
+      top: 0;                  
+      left: 0;                 
+      right: 0;                 
+      border-radius: 8px;          
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+      text-align: center;  
+    } 
+    
+    body {
+      background: #fffdf7;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    h1 {
+      margin: 0;  
+      color: black;
+      font-size: 20px;
+      font-style: oblique;
+      text-shadow: 2px 2px 9px gray;
+      text-transform: capitalize;
+    } 
+
+    .top-menu {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 20px;
+      gap: 30px;
+      margin-top: 60px;
+      position: relative;
+    }
+
+    .logo-container {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .logo-container img {
+      height: 100px;
+      width: auto;
+    }
+
+    .top-menu a {
+      color: white;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      transition: 0.3s ease;
+    }
+
+    .top-menu a:hover {
+      color: gray;
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 320px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .card a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="top-menu">
+    <div class="logo-container"></div>
+    <a href="Home.html">Home</a>
+    <a href="News.html">News</a>
+    <a href="Entertainment.html">Entertainment</a>
+    <a href="Sports.html">Sports</a>
+    <a href="Fashion.html">Fashion</a>
+    <a href="Cartoons.html">Cartoons</a>
+    <a href="Contact Us.html">Contact Us</a>
+  </div>
+
+  <div class="title-box">
+    <h1>Centralino Paper</h1>
+  </div>
+
+  <main class="container">
+    <div class="card">
+      <img src="enrile.jpg" alt="Juan Ponce Enrile">
+      <h3>Veteran politician Juan Ponce Enrile, a top aide of President Ferdinand Marcos Jr. and of the incumbent president's father, has passed away.</h3>
+      <p>Enrile, who was being treated for pneumonia, died "peacefully" around 4 p.m., surrounded by his family in their home, said his daughter Katrina Ponce Enrile.</p>
+      <a href="https://www.abs-cbn.com/news/nation/2025/11/13/juan-ponce-enrile-passes-away-1733">Read more</a>
+    </div>
+
+    <div class="card">
+      <img src="bato.jpg" alt="Ronald Dela Rosa">
+      <h3>Dela Rosa turns to Supreme Court for TRO vs ICC arrest warrant.</h3>
+      <p>Sen. Ronald "Bato" Dela Rosa has asked the Supreme Court to issue a temporary restraining order or TRO against the implementation of the supposed arrest warrant issued against him by the International Criminal Court.</p>
+      <a href="https://www.abs-cbn.com/news/nation/2025/11/13/bato-turns-to-sc-for-tro-vs-arrest-warrant-issued-by-icc-1608">Read more</a>
+    </div>
+
+    <div class="card">
+      <img src="fil.jpg" alt="Weaker Peso">
+      <h3>How weaker peso will hurt ordinary Filipinos</h3>
+      <p>Government officials and ordinary Filipinos alike should be bothered by the weakening of the peso against the dollar, an economist said Thursday.</p>
+      <a href="https://www.abs-cbn.com/news/business/2025/11/13/how-weaker-peso-will-hurt-ordinary-filipinos-1207">Read more</a>
+    </div>
+  </main>
+
+</body>
+</html>

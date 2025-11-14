@@ -1,0 +1,137 @@
+<html>
+<head>
+  <title>Centralino Paper</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fffdf7;
+      color: #333;
+    }
+
+    .title-box {
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    .title-box h1 {
+      margin: 0;
+      color: black;
+      font-size: 20px;
+      font-style: oblique;
+      text-shadow: 2px 2px 9px gray;
+      text-transform: capitalize;
+    }
+
+    .top-menu {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 20px;
+      gap: 30px;
+      margin-top: 60px;
+    }
+
+    .top-menu a {
+      color: white;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      transition: 0.3s ease;
+    }
+
+    .top-menu a:hover {
+      color: gray;
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+      margin-top: 150px; 
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 320px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+      color: darkblue;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="top-menu">
+    <a href="Home.html">Home</a>
+    <a href="News.html">News</a>
+    <a href="Entertainment.html">Entertainment</a>
+    <a href="Sports.html">Sports</a>
+    <a href="Fashion.html">Fashion</a>
+    <a href="Cartoons.html">Cartoons</a>
+    <a href="Contact Us.html">Contact Us</a>
+  </div>
+
+  <div class="title-box">   
+    <h1>Centralino Paper</h1>
+  </div>
+
+  <main class="container">
+    <div class="card">
+      <img src="bball.jpg" alt="Basketball Comic">
+      <h3>The Comic Book Story of Basketball</h3>
+      <p>A Fast-Break History of Hoops.</p>
+      <a href="https://www.kobo.com/ph/en/ebook/the-comic-book-story-of-basketball?srsltid=AfmBOor7h0DehtcvaMIi9bF38D5lqHvVmMczB6Zhp3MnKK4k9OMsyMfk">Read more</a>
+    </div>
+
+    <div class="card">
+      <img src="error.jpg" alt="Connection Error Comic">
+      <h3>Connection Error</h3>
+      <p>Scientists on the verge of a major discovery are thwarted by an HP Printer.</p>
+      <a href="https://www.adamwestbrook.co.uk/comics/connection-error/">Read more</a>
+    </div>
+
+    <div class="card">
+      <img src="swim.jpg" alt="Aquanimity Comic">
+      <h3>Aquanimity</h3>
+      <p>A grouchy swimmer learns a dramatic lesson in acceptance in this new short story.</p>
+      <a href="https://www.adamwestbrook.co.uk/comics/aquanimity/">Read more</a>
+    </div>
+  </main>
+
+</body>
+</html>

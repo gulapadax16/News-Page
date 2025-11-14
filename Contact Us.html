@@ -1,0 +1,142 @@
+<html>
+<head>
+  <title>Centralino Paper</title>
+  <style>
+    .title-box {
+      background-color: white;    
+      display: inline-block;       
+      padding: 10px 20px;          
+      position: absolute;
+      top: 0;                  
+      left: 0;                 
+      right: 0;                 
+      border-radius: 8px;          
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+      text-align: center;
+    }
+
+    body {
+      background-image: url('Centralino.jpg');
+      background-size: 1536px 662px;
+      background-repeat: no-repeat;
+      background-position: center 120px;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 0;
+      color: black;
+      font-size: 20px;
+      font-style: oblique;
+      text-shadow: 2px 2px 9px gray;
+      text-transform: capitalize;
+    }
+
+    .top-menu {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 20px;
+      gap: 30px;
+      margin-top: 60px;
+      position: relative;
+    }
+
+    .logo-container {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .logo-container img {
+      height: 100px;
+      width: auto;
+    }
+
+    .top-menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      transition: 0.3s ease;
+    }
+
+    .top-menu a:hover {
+      color: gray;
+      text-decoration: underline;
+    }
+
+    .message-box {
+      position: absolute;
+      top: 450px;
+      left: 25%;
+      transform: translateX(-50%);
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      width: 400px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid gray;
+      resize: none;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="top-menu">
+    <div class="logo-container"></div>
+    <a href="Home.html">Home</a>
+    <a href="News.html">News</a>
+    <a href="Entertainment.html">Entertainment</a>
+    <a href="Sports.html">Sports</a>
+    <a href="Fashion.html">Fashion</a>
+    <a href="Cartoons.html">Cartoons</a>
+    <a href="Contact Us.html">Contact Us</a>
+  </div>
+
+  <div class="title-box">
+    <h1>Centralino Paper</h1>
+  </div>
+
+  <div class="message-box">
+    <h2>Send us a message</h2>
+    <textarea id="messageInput" placeholder="Type your message here..."></textarea><br>
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+
+
+</body>
+</html>
